@@ -1,0 +1,55 @@
+.pipelines {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+.pipeline h3 {
+    color: rgb(132, 86, 206);
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.pipelines p {
+    opacity: 0.5;
+    font-size: 16;
+    font-weight: 600;
+    margin-bottom: 10;
+}
+
+.pipeline {
+    border-bottom: 2px solid rgb(226, 226, 226);
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+.pipeline:last-child {
+    border-bottom: none;
+}
+
+.column {
+    flex-grow: 2;
+    text-align: left;
+    width: 100%;
+}
+
+.left {
+    width: 600;
+}
+
+.middle{
+    margin-left: 20;
+    margin-right: 10;
+    text-align: center;
+}
+
+.right{
+    margin-left: 10;
+    text-align: center;
+}
+  
